@@ -1,0 +1,1048 @@
+
+ /* global formating */
+ *, *::before, *::after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.manu a {
+    display: block;
+    text-decoration: none;
+}
+
+header {
+    width:100%;
+    top:0;
+    height:4.4rem;
+    background-color:rgb(49, 49, 50);
+    backdrop-filter:blur(2rem);
+}
+.navbar-list {
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 -1rem;
+   
+}
+.navbaritem-link {
+    font-size:1.4rem;
+    color:#adadad;
+    padding:0 1rem;
+
+}
+.manu a:hover {
+    color:rgb(203,203,203);
+    text-decoration:underline;
+}
+
+.navbaritem-link-logo {
+    height:4.4rem;
+    width:2.2rem;
+    background: url("nav/images/apple_logo.svg") center no-repeat;
+
+}
+.navbar-logo {
+   margin:0 10px;
+}
+.navbaritem-search .search-logo{
+    width:1.6rem;
+    height:4.4rem;
+    /* background: url("nav/images/search.svg") center no-repeat; */
+
+}
+.navbaritem-bag .bag-logo {
+    width:1.6rem;
+    height:3rem;
+    /* background: url("nav/images/bag_logo.svg") center no-repeat; */
+
+}
+
+/* end of global formating */
+/* continuation with indexpage */
+
+.text {
+    color:rgb(0 0 0.8);
+    text-align: center;
+}
+.text-con {
+    background-color: #f5f5f7;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.01rem;
+    height: 7rem;
+    width: 100%;
+}
+.text-container a, .inl a {
+    text-decoration: none;
+}
+.text-container {
+    padding:.6rem;
+    height: 100%;
+    width: 100%;
+}
+.text-container p {
+    color: rgb(89, 84, 84);
+}
+
+.text-container .mov {
+    margin-top: 2rem;
+}
+.text-container-link {
+    display: inline-block;
+    color:#3e739e;
+    font-size: 13px;
+}
+
+.heading {
+    font-size: 4.6rem;
+    line-height: 1.0713;
+    letter-spacing: 0.005rem;
+    
+}
+.subhead, .inl {
+    margin-top: 1rem;
+}
+.subhd {
+    font-size: 2.65rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align:center;
+    margin-top:5.5rem;
+}
+.ip{
+    margin-top:0;
+}
+.ipm {
+    margin-top:5.5rem;
+}
+.heading-iphone13 {
+    font-size:4.6rem;
+    color:#fff;
+    letter-spacing: 0.005rem;
+}
+.subhead-iphone13 {
+    font-size: 2.65rem;
+    color:rgb(234, 177, 208)
+
+}
+.heading-watch {
+    font-size: 1.5rem;
+    color:rgb(155, 91, 8);
+}
+.heading-mac {
+    font-size:2.65rem;
+}
+.subhead-watch, .subhead-fit, .subhead-mac, .subhead-acard, .subhead-card{
+    font-size: 2.65rem;
+    color: rgb(104, 101, 101);
+    font-weight: normal;
+}
+.heading-val {
+    color: rgb(101, 20, 63);
+}
+.subhead-val {
+    font-size: 2.65rem;
+    color: rgb(101, 20, 63);
+}
+#cformat {
+    color: rgb(104, 101, 101);
+}
+ 
+.inl-link {
+    color:#66bbff;
+    font-size:2.1rem;
+}
+
+.inl-link:nth-child(2) {
+    margin-left:2.6rem;
+}
+.iphone-13-pro {
+    height:69.2rem;
+    background: url("indexpage/images/iphone-13-pro.jpg"); 
+
+  
+}
+.iphone-13 {
+    height:69.2rem;
+    background: url("indexpage/images/iphone-13.jpg") ;
+
+}
+.iphone-watch {
+    height:69.2rem;
+    background: url("indexpage/images/watch.jpg");
+}
+
+.container-col-2{
+    display:flex;
+    justify-content:space-between;
+    height:69.2rem;
+    width:100%;
+}
+.fit {
+    background-image: url("indexpage/images/fitness.jpg");
+    height:100%;
+    width:50%;
+    border-right: .6rem solid #fff;
+    
+}
+.mac {
+    background-image:url("indexpage/images/macbook-pro.jpg");
+    height:100%;
+    width:50%;
+    border-left:.6rem solid #fff;
+}
+
+.val {
+    background-image:url("indexpage/images/valentine.jpg");
+    height: 100%;
+    width:50%;
+    border-right:.6rem solid #fff;
+}
+.acard {
+    background-image:url("indexpage/images/arcade.jpg");
+    height:100%;
+    width:50%;
+    border-left:.6rem solid #fff;
+}
+.card {
+    background-image:url("indexpage/images/card.jpg");
+    height:100%;
+    width:50%;
+    border-right:.6rem solid #fff;
+}
+.tv {
+    background-image: url("indexpage/images/tv-plus.jpg");
+    height:100%;
+    width:50%;
+    border-left:.6rem solid #fff;
+}
+
+.all-con {
+    background-repeat:no-repeat;
+    background-size:auto 73.6rem;
+    background-position:center;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+.text-con {
+    border-top:none;
+    border-bottom:none;
+}
+.iphone-13-pro {
+    border-top:none;
+}
+.footer {
+    background-color: rgb(220, 219, 219);
+}
+.footer-center {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+   margin: auto;
+}
+.semi-footer, .foot {
+    font-size:10px;
+    color:rgb(100, 95, 95);
+    margin: 15px;
+}
+.semifooter-list {
+    list-style-position: inside;
+}
+.foot {
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+    
+}
+.foot ul {
+    list-style-type: none;
+    margin: 10px;
+}
+.foot {
+    border-top: 1px solid #524e4e;
+}
+.foot ul li, .semi-footer ol li, .semi-footer p {
+    margin-top: 10px;
+}
+.foot ul li a {
+    text-decoration: none;
+    color:rgb(100, 95, 95);
+}
+.fut {
+    display: flex;
+    flex-direction: column;
+}
+.futflex {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #474747;
+    margin-top:10px;
+    padding-top:10px
+}
+.futh,.futb,.fut {
+    font-size: 10px;
+    color:rgb(100, 95, 95);
+}
+.fut a {
+    font-size: 10px;
+    color:#66bbff;
+    text-decoration: none;
+}
+.futb {
+    border-right:1px solid #474747;
+    padding-right:2px;
+}
+/* End of index page  */
+
+/* continuation with accesseries page  */
+
+.airpod {
+    height:69.2rem;
+    width:100%;
+    background-image:url("accessories/images/airpods-header.jpg");
+    background-position: left;
+    background-repeat:no-repeat;
+    margin-top:0;
+}
+.conairpod {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.airpod-text {
+    margin-top:500px;
+}
+
+.airpod-text .yell {
+    color:#d9956c;
+    font-size: 1.8rem;
+    margin:5px;
+}
+.airpod-hd {
+    font-size: 3.1rem;
+    margin:5px
+
+}
+.cta, .airpod-tx {
+    margin:5px;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.jki {
+    height:100px;
+    width:300px;
+    border-radius: 2rem solid blue;
+    border-color:black;
+}
+.search {
+    height: 20rem;
+    width:100%;
+    margin-top:3rem;
+
+}
+.search-text {
+    display: flex;
+    height:50px;
+    width:50%;
+    justify-content: space-evenly;
+    margin: auto;
+    border:1px solid black;
+    align-items: center;
+    border-radius: 10px;
+    gap:30px;
+}
+.search-text input {
+    width:80%;
+    height: 100%;
+    outline: none;
+    border:none
+}
+.search-text img {
+    height: 70%;
+    width: 10%;
+    object-fit: contain;
+}
+.searchhd {
+    font-size: 2.1rem;
+}
+.concategories {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+}
+.categoriesdivi {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:40px;
+    border-bottom:1px solid rgb(157, 152, 152);
+    width:60%;
+    margin:0 auto;
+}
+.categorieslink {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:40px;
+    list-style: none;
+}
+.clink-dv {
+    margin-top: 10px;    
+}
+.clinks img {
+    height:4rem;
+    width:4rem;
+    margin:25%;
+}
+.bord {
+    border:1px solid rgb(136, 132, 132);
+    border-radius: 50px;
+    height: 8rem;
+    width: 8rem;
+}
+.clink-txt {
+    font-size: 11px;
+    color:rgb(69, 65, 65);
+}
+.cate h2, .product h2 {
+    font-size: 14px;
+    color:rgb(69, 65, 65);
+}
+.cate, .product {
+    margin-bottom: 10px;
+}
+.cta {
+    color:#66bbff;
+}
+
+
+.setlink {
+    font-size: 14px;
+    text-decoration: none;
+}
+.apple-access {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:50px;
+}
+.apple-accesshd {
+    text-align: center;
+}
+.content {
+    height:fit-content;
+    width:80%;
+    margin: auto;
+}
+.content-2col {
+    height:64rem;
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+#col2 {
+    margin-top:15px;
+}
+.apple-accesstxt {
+    font-size: 20px;
+
+}
+.featured_1 {
+    height:40rem;
+    width: 33rem;
+}
+.featured_2{
+    height:40rem;
+    width: 60rem;
+}
+.apple-access1 {
+    background-color:#f2f2f2;
+    width:25%;
+    text-align: center;
+    margin: .8rem;
+}
+.apple-access2 {
+    background-color:#f2f2f2;
+    width:55%;
+    text-align: center;
+    margin: .8rem;
+}
+.txtcon {
+    margin:10px;
+}
+.txtcol {
+    color:#f75d1b;
+    font-size: 8px;
+    margin:2px;
+}
+.txttxt {
+    font-size: 11px;
+}
+.txtprice {
+    font-size: 10px;
+    margin-top:25px;
+}
+.apple-access3 {
+    background-color:#f2f2f2;
+    width:26.3%;
+    text-align: center;
+    margin: .8rem;
+}
+.featured_3,.featured_4,.featured_5 {
+    height:40rem;
+    width: 35rem;
+}
+.featured_6,.featured_7,.featured_8 {
+    height:35rem;
+    width: 30rem;
+}
+.allconten {
+    display: flex;
+    justify-content: center;
+    width:80%;
+    margin:auto;
+    height:50.8rem;
+}
+.apple-vale1 {
+    background: url("accessories/images/apple-valentines-day-accessories.png") no-repeat;
+    height:50.8rem;
+    width:100%;
+    background-size:auto 100%;
+    background-position:right;
+}
+
+.conten {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.conapp {
+    width:100%;
+    height:50.8rem;
+    background-color: #f9f1f8;
+}
+.apple-vale-text {
+    margin-left:100px;
+}
+.conten-link {
+    margin-left:100px;
+   margin-top: 15px;
+}
+.vale-hd {
+    font-size: 34px;
+    color:#5f3b5f;
+}
+.vale {
+    font-size: 14px;
+    margin-top: 15px;
+}
+.concolor {
+    height:50.8rem;
+    width:80%;
+    margin:auto;
+    background-color: #f1f1f1;
+    align-items: center;
+}
+.colorlike {
+    background:url("accessories/images/homepod-mini-accessories.jpg") center no-repeat;
+    background-size:auto 100%;
+    background-position:center;
+    height:30rem;
+    width:100%;
+}
+.color-like-hd {
+    font-size: 34px;
+
+}
+.color-like-wr {
+    font-size: 20px;
+    margin-top:15px;
+    text-align: center;
+}
+.conten-links {
+    margin-top:15px;
+    justify-content: center;
+    align-items: center;
+}
+.fotaccess {
+   margin-top: 30px;
+}
+.fotaccess2 {
+    border-top: 1px solid #474747;
+}
+.signup {
+    width:100%;
+    height:50px;
+    text-align: center;
+    margin-top:30px; 
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.signup div {
+    width:40%;
+}
+.sign {
+    font-size: 20px;
+    color: #66bbff;
+    text-decoration: none;
+}
+
+
+/* end of accesspage  */
+.maiin {
+    background-color: #f5f5f7;
+}
+.nav {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:9rem;
+    background-color: #fbfbfd;
+    width: 100%;
+    gap:30px;
+}
+.navimg-img {
+    height:4rem;
+    width:4rem;
+}
+.navimg-link:hover {
+    cursor: pointer;
+}
+.navtxt {
+    display:block;
+    margin-top:5px;
+    text-align: center;
+    color:#4f4f51;
+}
+.navcol {
+    color:#d9956c;
+}
+.intro {
+    height:2.2rem;
+    width:100%;
+    text-align: center;
+    background-color:#a1a4a6
+}
+.introtxt {
+    font-size: 10px;
+    color:#524e4e;
+}
+.mini {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 69rem;
+    width:100%;
+    background: url("ipad/images/ipad_mini.jpg") right no-repeat;
+    background-size:auto 100%;
+}
+
+.ipadmini {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.ipadco{
+    margin-top: 100px;
+}
+.ipadminili a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.ipadco5 {
+    text-align: center;
+    margin-right: 50px;
+}
+.ipadco5-head2 {
+    color: #d9956c;
+    font-size: 20px;
+}
+.ipadco5-head {
+    font-size: 40px;
+    margin: .6rem;
+}
+.ipadco5-p {
+    font-size: 25px;
+    margin: .9rem;
+}
+.ipadminili p, .ipadminili a {
+    font-size: 20px;
+    margin-top: 1.6rem;
+    
+}
+.ipadminili {
+    margin: .6rem;
+    text-align: center;
+    
+}
+.ipadminili a:last-child  {
+    color:#2c80d5
+}
+.c-buy {
+    background-color: #2c80d5;
+    color:#fff;
+    border-radius: 15px;
+    width:fit-content;
+    padding: 7px;
+    margin:2px auto;
+    
+}
+.ipadco2 {
+    margin: 50px 0;
+}
+
+.ipadco5c-sub {
+    display: flex;
+    flex-direction: column;
+}
+.ipd-pro {
+    background: url('ipad/images/ipad_pro_hero.jpg') no-repeat;
+    background-size: auto;
+    height: 70rem;
+    background-color: white;
+    background-position: 200px 5px ;
+}
+
+
+
+
+
+
+
+.bodycontext {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:40px;
+    
+}
+.flexsub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height:15rem;
+    text-align: center;
+    font-size: 14px;
+}
+
+.bodconheading {
+    margin-top:20px;
+}
+.bodconh-e {
+    font-size: 40px;
+    color:#2f2e2e;
+}
+.bodycon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width:100%;
+    background-color: #fff;
+}
+.ipadpro-contxt,.ipadmini-contxt,.ipadair-contxt,.ipad-contxt {
+    gap: 50px;
+}
+.context-link a{
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+}
+.texthead {
+    font-size: 14px;
+}
+.flexsub-txt {
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.texthead2 {
+    font-size: 10px;
+}
+.flexsub-subtext {
+    font-size: 10px;
+    
+}
+.flexsub-head {
+    margin-top: 20px;
+}
+.flexsub-links a{
+    display: block;
+    text-align: center;
+}
+.flexsub-links {
+    border-bottom: 1px solid #474747;
+    align-items: center;
+}
+.imgdiv {
+    height:20rem;
+}
+.img1 {
+    height:95%;
+    width:6rem;
+}
+.img2 {
+    height:15px;
+    width:8rem;
+}
+.brd {
+    border-bottom: 1px solid black;
+}
+.boncon-foot {
+    height: 5rem;
+    margin-top: 5rem;
+    font-size: 20px;
+}
+.boncon-foot a{
+    text-decoration: none;
+    color: #66bbff;
+}
+#spa {
+    margin-left: 20px;
+}
+
+
+.bge{
+    height: 40rem;
+}
+.bgi{
+    background-size: auto 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.col3-1{
+    display: flex;
+    width:100%;
+    height: 40rem;
+    justify-content: space-around;
+}
+.col2-1c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col2-1c-txt {
+text-align: center;
+}
+.newcol2c-a a {
+    text-decoration: none;
+    color:#66bbff;
+    margin:.6rem;
+}
+.c-a a{
+    text-decoration:underline;
+}
+.col2-1c-hd,.necol2c-con {
+    margin:.6rem;
+}
+.h21 {
+    font-size: 65px;
+    text-align: center;
+}
+
+.new2col {
+    height: 72rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin:30px;
+    gap: 20px;
+}
+.cold {
+    height: 100%;
+    width: 60%;
+    background-color: #fff;
+}
+.cold-t { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+
+
+}
+.cold-i img {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    width:100%;
+}
+.new2cold-t-h {
+    font-size: 40px;
+    margin:.6rem
+}
+.new2cold-t-p {
+    font-size: 25px;
+    margin:.6rem
+}
+.cold-a a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: .6rem;
+    color: #2c80d5;
+}
+.new3col {
+    display: flex;
+    margin:30px;
+    justify-content: center;
+    background-color: #fff;
+}
+.co3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.co3-head {
+    font-size: 40px;
+    margin: 0.6em;
+}
+.co3-p {
+    font-size: 25px;
+   margin: .6rem;
+}
+.co3link a{
+    text-decoration: none;
+    color: #3e739e;
+    font-size: 20px;
+}
+.new4col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    margin:30px;
+}
+.col4i {
+    width:100%;
+}
+.new3col img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    width: 100%;
+}
+.co4 {
+    text-align: center;
+}
+.newfcol {
+    height:60rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin:30px;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.coldf {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    
+}
+.cold-tf { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+
+
+}
+.cold-if img {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    width:80%;
+    margin-left: 50px;
+}
+.new5col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin:30px;
+    width:100%;
+    gap:100px;
+    background-color: #fff;
+}
+.co5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.co5-head2 {
+    font-size: 22px;
+    margin: .6rem;
+}
+.co5-head {
+    font-size: 40px;
+    margin:.6rem;
+}
+.co5-p {
+    font-size: 20px;
+    margin: .6rem;
+}
+.aplin {
+    margin-left: 30px;
+}
+.new2cold-b {
+    background-color: #090a0e;
+    color: #fff;
+}
+.ppt {
+    height:50rem;
+}
+.pft {
+    background-color: #fa3455;
+}
+.bgg1 {
+    background-image: url("ipad/images/ipad_for_education.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: auto 100%;
+    background-position: center;
+
+}
+.bgg2 {
+    background-image: url("ipad/images/ipad_for_work.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: auto 100%;
+    background-position: center;
+}
+.gre {
+    background-image:-webkit-linear-gradient(rgb(254, 26, 64),#8f03f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
